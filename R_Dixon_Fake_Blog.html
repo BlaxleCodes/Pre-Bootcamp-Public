@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Blog</title>
+    <style>
+        body {
+        background-color: rgb(219, 161, 135);
+        }
+        .table_background {
+        display: flex;
+        background-color: rgb(190, 233, 188);
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-bottom: 8vh;
+        margin-top: 5vh;
+        box-shadow: 0px 0px 10px rgba(83, 83, 82, 0.5);
+        border-radius: 15px;
+        }
+
+        table {
+        background-color: rgb(205, 230, 161);
+        font-family: futura-pt, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        border-collapse: collapse;
+        width: 100%;
+        border-radius: 15px;
+        }
+
+        th {
+        font-size: 18px;
+        text-align: left;
+        padding: 20px 20px 20px 20px;
+        }
+
+        table,
+        td {
+        padding: 8px 8px 8px 20px;
+        }
+
+        tr:nth-child(even) {
+        background-color:  rgb(205, 230, 161);
+        }
+
+        /*.column {
+            border-radius: 20px;
+            float: left;
+            width: 30%;
+            padding: 10px;
+            height: 150px; 
+        }
+        .row:after{
+             content: "";
+             display: table;
+             clear: both;
+         } Keep for reference*/
+    </style>
+</head>
+<body>
+    <h1>Rickie Dixon</h1>
+    <img src="Rickie.jpeg" height=200 width=165 alt="blank image">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Mauris suscipit, magna sed auctor commodo, lacus lacus egestas justo, at cursus leo ipsum quis ante. 
+        Aliquam rutrum egestas vehicula. Praesent vitae scelerisque massa. Nulla a tincidunt dui. 
+        Curabitur convallis cursus justo, et ultricies lacus pretium eu. 
+        Morbi eu dolor feugiat, accumsan lorem eu, finibus justo. Integer at viverra nisl. 
+        Integer ut varius risus. Ut a nunc erat. Nulla blandit massa ut nisl pharetra varius. 
+        Phasellus quam tortor, hendrerit quis ex quis, commodo accumsan leo. 
+        Maecenas pretium orci in dui consectetur, sed gravida elit condimentum.
+        Proin est justo, ullamcorper eget leo in, vehicula gravida orci. 
+        Nullam bibendum arcu id turpis tristique varius. Ut laoreet mauris congue, molestie ex quis, mollis metus.
+
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Favorite Movies</th>
+                <th>Favorite Foods</th>
+                <th>Hobbies</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Goodfellas</td>
+                <td>Peruvian</td>
+                <td>Architecture</td>
+            </tr>
+            <tr>
+                <td>Snatch</td>
+                <td>Taiwanese</td>
+                <td>Skateboarding</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--<div class="row">
+         <div class="column" style="background-color: #FF5733;">
+             <h2>Hobbies</h2>
+            <p>Running</p>
+            <p>Skateboarding</p>
+            <p>Architecture</p>
+        </div>
+        <div class="column" style="background-color: #FFC300;">
+            <h2>Favorite Foods</h2>
+            <p>Peruvian</p>
+            <p>Thai</p>
+            <p>Barbecue</p>
+        </div>
+        <div class="column" style="background-color: #DAF7A6;">
+            <h2>Favorite Movies</h2>
+            <p>Snatch</p>
+            <p>Goodfellas</p>
+            <p>Grumpy Old Men</p>
+        </div>
+    </div> Keep for reference-->
+   
+    <ul>
+        <li>1979-2016 - Saint Petersburg, FL</li>
+        <li>2016-2020 - Seattle, WA</li>
+        <li>2020-Present - University Place, WA</li>
+       
+    </ul>
+    <a href="https://youtu.be/ZZDU9FWfA-w" target="_blank">Click For Awesome Video!</a>
+    <p>
+        Please, let me send you some junk.
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+    </p>
+    <p>
+        <input type="radio" id="part1" name="text">
+        <label for="part1">Yes, please send me lots of emails.</label>
+        <input type="radio" id="part2" name="text">
+        <label for="part2">No, please do not send me lots of emails.</label>
+    </p>
+    <p>
+        How did you hear about us?
+    </p>
+        <p>
+            <label for="facebook">Facebook</label>
+            <input type="checkbox" id="facebook" name="facebook">
+        </p>
+        <p>
+            <label for="paper">Newspaper</label>
+            <input type="checkbox" id="paper" name="paper">
+        </p>
+            <label for="other">Referral</label>
+            <input type="checkbox" id="other" name="referral">
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </body>
+</html>
