@@ -1,0 +1,15 @@
+.center-box {
+height: 200px;
+width: 890px;
+background-color: #190080;
+padding-top: 70px;
+margin: 15px;
+}
+.center-item{
+margin-left: 410px;
+margin-top: 20px;
+    height: 85px;
+    width: 85px;
+    background-color:#fae4b5;
+    display:inline-block;
+}

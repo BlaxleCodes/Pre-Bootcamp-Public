@@ -1,0 +1,40 @@
+div{
+    width:900px;
+    height:75px;
+    display: flex;
+    background-color: cornflowerblue;
+    
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    padding-right: 20px;
+    margin-left: 10px;
+
+}
+img{
+    margin:0;
+    height: 50px;
+    width: 55px;
+    align-items: center;
+}
+div{
+    display: flex;
+    align-items: center;
+}
+#nav_menu ul{
+    margin: 0 35px 0 0;
+    padding-left: 30px;
+    list-style: none;
+    
+}
+#nav_menu li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+   margin:0 60px 0 15px;
+}
